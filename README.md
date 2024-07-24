@@ -1,6 +1,6 @@
 # rust-little-computer-3
 
-This project is a rust implementation of a virtual machine for runing 
+This project is a rust implementation of a virtual machine for running 
 [LC-3](https://en.wikipedia.org/wiki/Little_Computer_3) (Little Computer 3), 
 which is a simplified educational assembly language. I am doing this for 
 educational purposes as I am learning more about low level programming 
