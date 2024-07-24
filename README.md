@@ -30,7 +30,7 @@ There are some examples in `examples/`.
 
 # Notes
 
-LC-3 uses 15 instructions of 16 bits and has an address space of 2^16.
+LC-3 uses 16 instructions of 16 bits and has an address space of 2^16.
 
 The instruction set:
 
