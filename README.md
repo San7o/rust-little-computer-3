@@ -23,7 +23,7 @@ nix-shell
 
 You can run any LC-3 program with:
 ```bash
-cargo rur <path>
+cargo run <path>
 ```
 
 There are some examples in `examples/`.
