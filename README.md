@@ -2,13 +2,13 @@
 
 This project is a rust implementation of a virtual machine for runing 
 [LC-3](https://en.wikipedia.org/wiki/Little_Computer_3) (Little Computer 3), 
-which is a simplifies educational assembly language. I am doing this for 
-educational purposes, as I am learning more about low level programming 
+which is a simplified educational assembly language. I am doing this for 
+educational purposes as I am learning more about low level programming 
 for reverse engeneering.
 
 The idea came from [this](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/)
 guide, but I followed
-[this](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/) ther blog
+[this](https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/) other blog
 on rust.
 
 ## Depedencies
@@ -21,13 +21,19 @@ nix-shell
 
 ## Running
 
-You can run the project with:
+You can run any LC-3 program with:
 ```bash
-cargo run examples/rogue.obj
+cargo rur <path>
 ```
+
+There are some examples in `examples/`.
 
 # Notes
 
 LC-3 uses 15 instructions of 16 bits and has an address space of 2^16.
 
-TODO: Add instructions image
+The instruction set:
+
+![image](https://github.com/user-attachments/assets/88e60776-0fd5-4792-9ce8-3042a80d83cd)
+
+[Specification](https://www.cs.colostate.edu/~cs270/.Spring23/resources/PattPatelAppA.pdf)
